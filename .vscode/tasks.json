@@ -1,0 +1,16 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "Build",
+            "command": "make build",  // Or just compile using nvcc.
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "group": "build",
+            "problemMatcher": "$nvcc",
+            "detail": "compiler: /usr/bin/nvcc"
+        }
+    ]
+}
