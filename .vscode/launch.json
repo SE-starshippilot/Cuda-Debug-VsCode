@@ -1,0 +1,13 @@
+{
+    "configurations": [
+    {
+        "name": "CUDA C++: Launch",
+        "type": "cuda-gdb",
+        "request": "launch",
+        "program": "${workspaceFolder}/${fileBasenameNoExtension}",       // You can modify this to whatever object file
+        "cwd": "${workspaceFolder}",                                      // Necessary if you do I/O in your program
+        "preLaunchTask": "Build",                                         // Build before debug,  but feel free to modify
+        "debuggerPath": "/home/tianhao/anaconda3/envs/3150/bin/cuda-gdb"  // You need to modify this!
+    }
+    ]
+}
