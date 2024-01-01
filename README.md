@@ -1,23 +1,23 @@
-# CSC3150-Cuda-Debug
+# Cuda Debugging for VSCode
 
-Debug CUDA programs inside VS Code
+Debug CUDA programs inside VS Code. Created to assist my [Operating Systems course at CUHK(SZ)](https://github.com/SE-starshippilot/CSC_3150).
 
 ****
 
 ## Why did I create this repo?
 
-Because configuring VS code for CUDA debug is such a 菊中之痛. The relevant docs are not very helpful (as of Nov 3, 2022), but after tinkering for some time I finally get it up & running.
+This repo offers an out-of-the-box experience for debugging CUDA programs inside VsCode. As of Nov 2022, the relevant docs are not very helpful, but after tinkering for some time I finally get it up & running.
 
 ## How to use this repo?
 
 ### Prerequisites
 
-You need to install the following extensions
+You need to install the following extensions:
 
 - C/C++
 - Nsight Visual Studio Code Edition
 
-Find them in the VS Code Extension Marketplace
+Find them in the VS Code Extension Marketplace.
 
 ### Steps
 
@@ -60,7 +60,7 @@ You're all set! Set some breakpoints and enjoy debugging!
 
 ## Issues and PRs
 
-Should you have any questions please open issues.
+Should you have any questions, please open issues.
 
 Help to keep this repo updated by creating PRs.
 
@@ -68,4 +68,4 @@ Help to keep this repo updated by creating PRs.
 
 ## Disclaimer 
 
-This repo only contains config files for VS Code. No code of the actual assignment code will be uploaded before DDL of assignment.
+This repo only contains configuration files for the VS Code.
